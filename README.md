@@ -87,6 +87,10 @@ If you want to see exactly when it skips an ad:
   <img src="images/ad-skip-console-check.png" alt="Browser console showing YouTube Auto Skip messages" width="700">
 </p>
 
+<p align="center">
+  <img src="images/ad-skip-console-check.png" alt="YouTube Auto Skip console check" width="700">
+</p>
+
 Close the panel by pressing **F12** again.
 
 ---
