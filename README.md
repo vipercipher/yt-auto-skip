@@ -84,8 +84,6 @@ If you want to see exactly when it skips an ad:
 4. When an ad is skipped, you'll see a message like `[YouTube Auto Skip] Skipped ad (#1)`.
 
 <p align="center">
-  <img src="images/ad-skip-count.png" alt="YouTube Auto Skip popup showing the number of ads skipped" width="320">
-  <br><br>
   <img src="images/ad-skip-console-check.png" alt="Browser console showing YouTube Auto Skip messages" width="700">
 </p>
 
