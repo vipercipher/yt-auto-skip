@@ -43,6 +43,7 @@ Works in **Chrome, Edge, Brave, Opera, Arc** (Windows, Mac, Linux) and **Safari*
 | <img src="screenshots/01-install.png" width="300" alt="Auto Ad Skipper on the chrome://extensions page"> | <img src="screenshots/02-toolbar.png" width="200" alt="Auto Ad Skipper icon in the Chrome toolbar"> | <img src="screenshots/03-popup.png" width="300" alt="Popup showing auto-skip enabled and ads skipped count"> |
 | `chrome://extensions` → Developer mode on → **Load unpacked** | Puzzle-piece icon → pin **Auto Ad Skipper** | Turn skipping on/off and see how many ads were skipped |
 
+
 ## Install
 
 ### Chrome / Edge / Brave
