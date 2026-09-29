@@ -1,4 +1,4 @@
-<p align="center"><img src="extension/icons/icon32.png" width="96" alt=""></p>
+<p align="center"><img src="extension/icons/icon128.png" width="96" alt=""></p>
 
 <h1 align="center">Auto Ad Skipper</h1>
 
