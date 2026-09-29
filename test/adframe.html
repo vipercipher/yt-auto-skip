@@ -1,0 +1,13 @@
+<!doctype html><html><head><meta charset="utf-8"></head><body style="margin:0">
+<div class="videoAdUiBottomBar" style="position:absolute;right:0;bottom:0">
+  <div id="slot"></div>
+</div>
+<script>
+setTimeout(() => {
+  const b = document.createElement("div");
+  b.setAttribute("role","button"); b.className="skip-control"; b.textContent="Skip Ad ▶";
+  b.style.cssText="width:110px;height:40px;background:#333;color:#fff";
+  b.addEventListener("click",(e)=>{ if(!e.isTrusted) return; b.remove(); parent.postMessage({testResult:"ima-skipped"},"*"); });
+  document.getElementById("slot").appendChild(b);
+}, 1500);
+</script></body></html>

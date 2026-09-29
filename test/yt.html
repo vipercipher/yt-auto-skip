@@ -1,0 +1,21 @@
+<!doctype html><html><head><meta charset="utf-8"></head><body style="margin:0">
+<div id="movie_player" class="html5-video-player ad-showing" style="width:640px;height:360px;background:#000;position:relative">
+  <video></video>
+  <div class="ytp-skip-ad" style="position:absolute;right:10px;bottom:40px"></div>
+</div>
+<script>
+window.result = "waiting";
+setTimeout(() => {
+  const b = document.createElement("button");
+  b.className = "ytp-skip-ad-button"; b.textContent = "Skip";
+  b.style.cssText = "width:90px;height:36px";
+  // Like real YouTube: ignore script clicks, accept only real ones
+  b.addEventListener("click", (e) => {
+    if (!e.isTrusted) { window.untrustedIgnored = true; return; }
+    document.getElementById("movie_player").classList.remove("ad-showing");
+    b.remove(); window.result = "skipped";
+    parent.postMessage({ testResult: "yt-skipped" }, "*");
+  });
+  document.querySelector(".ytp-skip-ad").appendChild(b);
+}, 1500);
+</script></body></html>
