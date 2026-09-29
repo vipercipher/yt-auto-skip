@@ -4,6 +4,13 @@
 
 <p align="center">A browser extension that presses <b>Skip Ad</b> for you the moment it appears.</p>
 
+   <p align="center">
+     <picture>
+       <source media="(prefers-color-scheme: dark)" srcset="assets/skip-ad-dark.png">
+       <img src="assets/skip-ad-light.png" width="360" alt="Skip Ad button">
+     </picture>
+   </p>
+
 ---
 
 ## What it does
