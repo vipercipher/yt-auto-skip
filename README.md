@@ -24,6 +24,25 @@
 
 Works in **Chrome, Edge, Brave, Opera, Arc** (Windows, Mac, Linux) and **Safari** (Mac, with limits, see below).
 
+## See it in action
+
+<p align="center">
+  <img src="screenshots/05-skip.gif" width="720" alt="YouTube ad skipped automatically the moment the Skip button appears">
+  <br><em>The Skip button appears and the extension presses it straight away. No mouse, no remote.</em>
+</p>
+
+| The ad, with its Skip button | Proof it was skipped |
+|---|---|
+| <img src="screenshots/04-before.png" width="420" alt="YouTube ad showing a Skip button"> | <img src="screenshots/06-console.png" width="420" alt="Console log: Skip button found, Skipped ad #2"> |
+| *A YouTube ad once the Skip button shows* | *Chrome's console (F12 → Console) logs every skip* |
+
+### Setup
+
+| 1. Load it in Chrome | 2. Pin it to the toolbar | 3. Check the popup |
+|---|---|---|
+| <img src="screenshots/01-install.png" width="300" alt="Auto Ad Skipper on the chrome://extensions page"> | <img src="screenshots/02-toolbar.png" width="200" alt="Auto Ad Skipper icon in the Chrome toolbar"> | <img src="screenshots/03-popup.png" width="300" alt="Popup showing auto-skip enabled and ads skipped count"> |
+| `chrome://extensions` → Developer mode on → **Load unpacked** | Puzzle-piece icon → pin **Auto Ad Skipper** | Turn skipping on/off and see how many ads were skipped |
+
 ## Install
 
 ### Chrome / Edge / Brave
